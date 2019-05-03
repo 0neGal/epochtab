@@ -1,0 +1,22 @@
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+}
+
+#content {
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform: scale(0.96);
+    opacity: 0.0;
+    transition: 0.3s ease-in-out;
+}
+
+#epoch {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#clock {
+    font-size: 25px;
+}
